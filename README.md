@@ -21,7 +21,8 @@ While there are many different Linux distributions, the following seems to work 
 
 First, install dependencies:
 
-    sudo apt install g++ zlib1g-dev python3.5-dev python3-pip
+    sudo apt-get update  
+    sudo apt install g++ zlib1g-dev libz-dev python3.5-dev python3-pip 
     sudo pip3 install setuptools
 
 To install Indri:
